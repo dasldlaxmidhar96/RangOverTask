@@ -1,0 +1,43 @@
+.Team-Wrapper .team-Heading{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10vh;
+}
+
+.image-Area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    cursor: pointer;
+}
+
+.single-Image {
+    padding: 0 25px 15px;
+}
+
+.single-Image > img:hover {
+    opacity: .5;
+    transition: .9s;
+}
+
+.single-Image > p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.single-Image > .logo-center {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .Team-Wrapper {
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem;
+    }
+  }

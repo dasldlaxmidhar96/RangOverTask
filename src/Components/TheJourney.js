@@ -4,9 +4,9 @@ import "../App.css"
 const TheJourney = () => {
   return (
     <div className="journey-Container">
-      <div className="journey-Menu">
+      <div>
         <h1>THE JOURNEY</h1>
-        <div className="root-Menu">
+        <div>
           <h4>THE ROOTS</h4>
           <p>
             Our entire life when we shop. we are limited by choices that are there

@@ -1,8 +1,11 @@
 import React from 'react'
+import StorePage from './Store/StorePage'
 
 const Store = () => {
   return (
-    <div>Store</div>
+    <div>
+      <StorePage />
+    </div>
   )
 }
 
